@@ -1,0 +1,41 @@
+.movie_card {
+  width: 33%;
+  height: 300px;
+  border-radius: 1rem;
+  background: black;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.movie_card::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.734);
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: top 0.5s 0.5s;
+}
+.movie_card:hover::after {
+  transition: top 0.5s;
+  top: 0;
+}
+.movie_card__content {
+  position: relative;
+  z-index: 1;
+  right: 100%;
+  transition: right 0.5s;
+}
+
+.movie_card:hover .movie_card__content {
+  transition: right 0.5s 0.5s;
+  right: 0px;
+}
+.movie_card__title {
+  color: #ce4456;
+  font-size: 1.3rem;
+}

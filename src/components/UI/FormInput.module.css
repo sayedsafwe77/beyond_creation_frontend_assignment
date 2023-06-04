@@ -1,0 +1,14 @@
+.form_control {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  background: transparent;
+  border: 1px solid rgb(136, 49, 49);
+  border-radius: 15px;
+  outline-style: none;
+}
+.form_label {
+  display: block;
+  margin: 1rem 0rem;
+  text-align: start;
+}

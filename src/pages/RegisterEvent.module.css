@@ -1,0 +1,9 @@
+.register_event_list {
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px red;
+  width: 40%;
+  max-width: 80%;
+  margin: 3rem auto;
+}

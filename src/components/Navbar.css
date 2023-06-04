@@ -1,0 +1,30 @@
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(to right, rgb(33, 24, 24), rgb(94, 30, 30));
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.navbar-links__item {
+  list-style-type: none;
+  color: white;
+  padding: 1rem;
+}
+.navbar-links__item__link {
+  color: white;
+}
+.navbar-links__search {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: auto;
+}
+.navbar-links__item:hover {
+  background: black;
+  cursor: pointer;
+}
+.active {
+  background: black;
+}
