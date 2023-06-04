@@ -36,6 +36,7 @@ https://github.com/sayedsafwe77/beyond_creation_assignment/assets/73827400/aacfb
 - Run `npm run dev`
 - Go To `src/components/api-client.js`
 - Change `BACKEND_BASE_URL={your_backend_url}`
+- Run `npm run dev`
 
 ```
     npm run dev
